@@ -8,7 +8,7 @@ import {
   Row
 } from 'react-bootstrap';
 
-import Auth from '../utils/auth';
+import Auth from '../utils/auth.js';
 import { SAVE_BOOK } from '../utils/mutations.js';
 import { useMutation } from '@apollo/client';
 import { searchGoogleBooks } from '../utils/API.js';
