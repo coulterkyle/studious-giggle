@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import {
   Container,
   Card,
@@ -9,7 +8,6 @@ import {
 
 import { QUERY_ME } from '../utils/queries.js';
 import { REMOVE_BOOK } from '../utils/mutations.js';
-// import { getMe, deleteBook } from '../utils/API';
 import Auth from '../utils/auth.js';
 import { removeBookId } from '../utils/localStorage.js';
 import { useQuery, useMutation } from '@apollo/client';
